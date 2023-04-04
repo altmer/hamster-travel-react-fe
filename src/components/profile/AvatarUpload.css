@@ -1,0 +1,38 @@
+.AvatarUpload {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.AvatarUpload-overlay {
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 100%;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  opacity: 0.8;
+}
+
+.AvatarUpload-overlay img {
+  height: 32px;
+  margin-top: 34px;
+  opacity: 0.6;
+  width: 32px;
+}
+
+.AvatarUpload-overlay:hover img {
+  opacity: 1;
+}
+
+.AvatarUpload-outer .sk-spinner {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.AvatarUpload:focus {
+  outline: none;
+}

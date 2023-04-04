@@ -1,0 +1,51 @@
+.TopNav {
+  background-color: white;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
+.TopNav-logo {
+  height: 36px;
+  margin-top: -6px;
+}
+
+.TopNav .navbar-brand {
+  font-size: 24px;
+}
+
+.TopNav .navbar-nav.navbar-left {
+  float: left;
+}
+
+.TopNav div.dropdown-menu img {
+  margin-right: 7px;
+}
+
+@media (max-width: 768px) {
+  .TopNav .navbar-nav {
+    position: static;
+    float: right;
+    margin: 0;
+  }
+
+  .TopNav .navbar-header,
+  .TopNav .navbar-nav > li {
+    float: left;
+  }
+
+  .TopNav .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+
+    float: initial;
+    width: initial;
+    margin-top: initial;
+  }
+}

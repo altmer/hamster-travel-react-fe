@@ -1,0 +1,68 @@
+.GlobalSearch a:active,
+.GlobalSearch a:visited,
+.GlobalSearch a:focus {
+  outline: none;
+}
+
+.GlobalSearch input.form-control {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.GlobalSearch input:focus {
+  outline: none;
+}
+
+.GlobalSearch img.desktop-search-icon {
+  opacity: 0.4;
+  height: 1em;
+  margin-right: -3px;
+  margin-bottom: -1px;
+}
+
+.GlobalSearch .mobile-search-open {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.GlobalSearch .mobile-search-open:hover {
+  opacity: 1;
+}
+
+.GlobalSearch input.mobile-search-input {
+  display: block;
+  height: 63px;
+  margin-left: -15px;
+  padding-left: 40px;
+  width: calc(100% + 15px);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  border-radius: 0;
+}
+
+.GlobalSearch .mobile-search-close {
+  display: block;
+  position: absolute;
+  top: 0;
+  padding-bottom: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 21px;
+  right: 0;
+  z-index: 15;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.GlobalSearch .mobile-search-close:hover {
+  opacity: 1;
+}
+
+.GlobalSearch.form-group {
+  margin-bottom: 0;
+}

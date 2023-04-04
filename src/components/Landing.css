@@ -1,0 +1,125 @@
+.Landing .hero-area {
+  padding-bottom: 4rem;
+}
+
+.Landing .hero-area .hero-header {
+  font-size: 32px;
+  margin-top: 2rem;
+}
+
+.Landing .hero-area .hero-text {
+  font-size: 18px;
+  margin-top: 2rem;
+}
+
+.Landing .hero-area .hero-actions {
+  margin-top: 2rem;
+}
+
+.Landing .hero-area .hero-actions .btn {
+  margin-right: 1ch;
+}
+
+.Landing .hero-area .hero-images {
+  position: relative;
+}
+
+.Landing .hero-area .desktop-mock {
+  left: -20px;
+  position: absolute;
+  top: -80px;
+}
+
+.Landing .hero-area .mobile-mock {
+  left: 240px;
+  position: absolute;
+  top: 30px;
+}
+
+.Landing .feature-row {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.Landing .feature-row .feature-header {
+  font-size: 32px;
+}
+
+.Landing .feature-row .feature-description {
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.Landing .feature-row .feature-icon {
+  margin-bottom: 8px;
+  margin-right: 0.5ch;
+}
+
+.Landing .feature-row .feature-image {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Landing .feature-row.feature-row-grey {
+  background-color: #f5f5f5;
+}
+
+.Landing .final-row {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.Landing .final-row h2,
+.Landing .final-row .final-action {
+  text-align: center;
+}
+
+.Landing .final-row .final-action {
+  margin-top: 2rem;
+}
+
+/* mobile styles */
+@media (max-width: 768px) {
+  .Landing .hero-area .hero-header {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .Landing .final-row h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .Landing .hero-area .hero-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .Landing .hero-area .hero-actions {
+    text-align: center;
+  }
+
+  .Landing .feature-row .feature-header {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .Landing .feature-row .feature-description {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* desktop styles */
+@media (min-width: 768px) {
+  .Landing .feature-transfers-text {
+    padding-top: 2rem;
+  }
+
+  .Landing .feature-activities-text {
+    padding-top: 6rem;
+  }
+
+  .Landing .feature-profile-text {
+    padding-top: 4rem;
+  }
+}

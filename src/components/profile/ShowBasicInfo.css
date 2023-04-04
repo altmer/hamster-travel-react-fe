@@ -1,0 +1,19 @@
+.UserProfileText {
+  margin-left: 2ch;
+}
+
+.UserProfileText .UserProfileName {
+  font-size: 2em;
+}
+
+.UserProfileFeature {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.UserProfileFeature img {
+  height: 1em;
+  vertical-align: baseline;
+  margin-right: 0.4ch;
+  margin-bottom: -0.1em;
+}

@@ -1,0 +1,29 @@
+.Avatar {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.Avatar-Placeholder {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.Avatar-Placeholder.user-color-0 {
+  background-color: #34495e;
+}
+
+.Avatar-Placeholder.user-color-1 {
+  background-color: #8e44ad;
+}
+
+.Avatar-Placeholder.user-color-2 {
+  background-color: #e74c3c;
+}
+
+.Avatar-Placeholder.user-color-3 {
+  background-color: #d35400;
+}

@@ -1,0 +1,38 @@
+.UserProfile .UserProfileBasic {
+  display: flex;
+  flex-flow: row;
+}
+
+.UserProfile .UserProfileBasic .Avatar {
+  min-width: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.UserProfile .UserProfileBasic .Avatar-Placeholder {
+  font-size: 32px;
+  line-height: 32px;
+  padding-top: 34px;
+}
+
+.UserProfile .UserProfileStatistics {
+  color: #666;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.UserProfile .UserProfileStatistic {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.UserProfile .UserProfileStatisticNumber {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+.UserProfile .EditProfileLink {
+  padding-top: 1em;
+}

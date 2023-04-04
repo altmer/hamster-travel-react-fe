@@ -1,0 +1,39 @@
+.TripStatus-item {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.TripStatus-item:focus {
+  outline: none;
+}
+
+.TripStatus-item.active {
+  background-color: #f5f5f5;
+}
+
+.TripStatus-image {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.TripStatus-image img {
+  height: 70px;
+}
+
+.TripStatus-header {
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .TripStatus-header {
+    font-size: 13px;
+  }
+}
+
+.TripStatus-description {
+  text-align: center;
+  color: #7f8c8d;
+}

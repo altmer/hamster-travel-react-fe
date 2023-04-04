@@ -1,0 +1,35 @@
+.navbar li.LoginActions-btn > a {
+  border: 2px solid;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.navbar .LoginActions-btn.LoginActions-login > a {
+  border-color: #bdc3c7;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar .LoginActions-btn.LoginActions-login > a:hover {
+  background-color: #f5f5f5;
+  border-color: #aaa;
+}
+
+.navbar .LoginActions-btn.LoginActions-register > a {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar .LoginActions-btn.LoginActions-register > a:hover {
+  background-color: #419641;
+  border-color: #419641;
+  color: white;
+}
